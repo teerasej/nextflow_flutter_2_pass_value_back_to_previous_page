@@ -1,6 +1,6 @@
 # nextflow_select_value_return_back
 
-A new Flutter project. that demonstrates how to put value back from a widget that was pushed from originate.
+A Flutter project that demonstrates how to pass value back to previous widget from pushed one.
 
 ## Getting Started
 
@@ -51,7 +51,7 @@ body: ListView.builder(
 
             // passing context and the value you want to send it back to previous widget.
             Navigator.pop(context, choice);
-            
+
         },
         );
     },
